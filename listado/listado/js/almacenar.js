@@ -23,8 +23,7 @@ document.getElementById("limpiar").addEventListener("click", () =>{
 
 document.addEventListener("DOMContentLoaded", () =>{
     let i = 1;
-    let ingresado;
-    ingresado = 'ingresado' + i;
+    let ingresado = 'ingresado' + i;
     while (localStorage.getItem(ingresado)) {
         espacio.innerHTML += '<li>' + localStorage.getItem(ingresado) +'</li>';
         i++
